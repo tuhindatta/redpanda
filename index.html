@@ -7,15 +7,18 @@
 	<body>
 	
 		<h1> Some more things about coffie </h1>
-		<div class="sidebar">
-  			Area 1 (for example a sidebar)
-  			<gcse:searchbox></gcse:searchbox>
-		</div>
-
-		<div class="main-content">
-  			Area 2 (for example main area of the page)
-  			<gcse:searchresults></gcse:searchresults>
-		</div>
+		<script>
+		  (function() {
+		    var cx = '010929097412874894094:44opimo9i3y';
+		    var gcse = document.createElement('script');
+		    gcse.type = 'text/javascript';
+		    gcse.async = true;
+		    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+		    var s = document.getElementsByTagName('script')[0];
+		    s.parentNode.insertBefore(gcse, s);
+		  })();
+		</script>
+		<gcse:search></gcse:search>
 		<div class="top">
 			<div class="left">
 				<p>This article is about the brewed beverage. For the seed from which it is made, see Coffee bean. For other uses, see Coffee (disambiguation).</p>
