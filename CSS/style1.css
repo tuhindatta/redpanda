@@ -16,7 +16,7 @@ h1 {
 }
 
 h2 {
-		font-family : verdana;
+	font-family : verdana;
 	font-size : 25px;
 	font-weight : bold;
 }
@@ -30,6 +30,15 @@ p {
 .p1 {
 	padding-left : 25px;
 	padding-right : 25px;
+	font-family : lucinda;
+	font-size : 20px;
+}
+
+.p2 {
+	padding-left : 25px;
+	padding-right : 25px;
+	font-family : arial;
+	font-size : 15px;
 }
 
 .flex-contain{
