@@ -1,0 +1,85 @@
+* {
+	background-color: white;
+	/* border : 1px solid red; */
+}
+
+body{
+	
+	
+}
+
+h1 {
+	font-family : verdana;
+	font-size : 25;
+	font-weight : bold;
+	
+}
+
+p {
+	font-family : lucinda;
+	font-size : 25;
+}
+
+.flex-contain{
+	display : flex;
+	flex-wrap: wrap;
+}
+
+.imag {
+	padding : 10px;
+	object-fit : contain;
+	max-height : 345px;
+	max-width : 250px
+}
+
+.imag2 {
+	padding : 10px;
+	object-fit : contain;
+	max-height : 345px;
+}
+
+.vl {
+    border-left: 2px solid green;
+    height: 80%;
+    position: absolute;
+    left: 26%;
+    margin-left: -3px;
+    top: 0;
+}
+
+.one {
+	width : 8.33%;
+}
+.two {
+	width : 16.66%;
+}
+.three {
+	width : 25%;
+}
+.four {
+	width : 33.33%;
+}
+.five {
+	width : 41.66%;
+}
+.six {
+	width : 50%;
+}
+.seven {
+	width : 58.33%;
+}
+.eight {
+	width : 66.67%;
+}
+.nine {
+	width : 75%;
+}
+.ten {
+	width : 83.33%;
+}
+.eleven {
+	width : 91.67%;
+}
+.twelve {
+	width : 100%;
+}
